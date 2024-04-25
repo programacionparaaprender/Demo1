@@ -1,0 +1,270 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/6/2024 11:36:30 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAPTOP-CKPUJRP1"
+  DTS:CreatorName="LAPTOP-CKPUJRP1\luis1"
+  DTS:DTSID="{0798BE7B-34C6-4F23-9881-6750F16C033E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5397.1"
+  DTS:LocaleID="3082"
+  DTS:ObjectName="ForeachLoop"
+  DTS:PackageType="5"
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{F4E4C6E1-B9F7-4CBF-92F1-1027A30E6D8C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.SSIS]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{CDD4C833-B43C-4BBC-B193-02BB8B7FEC11}"
+      DTS:ObjectName="localhost.SSIS">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-ForeachLoop-{CDD4C833-B43C-4BBC-B193-02BB8B7FEC11}localhost.SSIS;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.SSIS.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{7DEEE14B-31F8-4A9D-B601-558D2747135D}"
+      DTS:ObjectName="localhost.SSIS.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-ForeachLoop-{7DEEE14B-31F8-4A9D-B601-558D2747135D}localhost.SSIS.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjA9HmU5au0KgvXjYi9G25AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADB+XW6VUlmIjokSN9P66KcTup73YAWd7YCBupJakKOvQAAAAAOgAAAAAIAACAAAAAxqUluOVbzxppy3aslWEHKU7dWyHV2vjOrv+V86VxmFRAAAACbE9tQTSKId9M5kXAtN7p7QAAAAO1bkbW7Ykbt6zOPgSEf05qQbplX1ymwwZPX97DP3iGvyotcpz6kkn05zahdCQVIxws80mBCJrJ0dAo1xGz/Yqw</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.SSIS.sa 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{7A61EEAC-E796-42F2-A0F3-3312E7AC43BF}"
+      DTS:ObjectName="localhost.SSIS.sa 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-ForeachLoop-{7A61EEAC-E796-42F2-A0F3-3312E7AC43BF}localhost.SSIS.sa 1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjA9HmU5au0KgvXjYi9G25AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADBBL23QWCTkjLVpus04pKGBuaKRuy6v29qijn3gTYoRwAAAAAOgAAAAAIAACAAAACkCHVti3hz+BMYlNkfZf7x0W93hLUEvEGy2rAkx5XJyhAAAACLLFcnF/ZRe0lVGEALRZk3QAAAABLehaUrI3KDKkDc8Em2brcDs9TmbA7jyREJ/JloYogjx4kNaJ3w2gOv8uRLnlv2A5wLo6SsXHniLQKOdYXnh6Y</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.SSIS.sa 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{96043887-D7F4-40BE-9A2A-B45FEC08C216}"
+      DTS:ObjectName="localhost.SSIS.sa 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-ForeachLoop-{96043887-D7F4-40BE-9A2A-B45FEC08C216}localhost.SSIS.sa 2;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjA9HmU5au0KgvXjYi9G25AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABFEHUb+k4fdykTn3nVNEcz5lKki3k6cMp3SeGOJiv6ywAAAAAOgAAAAAIAACAAAACYPOqCzYUqdO/1/wIEUVPd9s/HZ2qJryahBzZ9NWqLahAAAADTSyvWwtm5AAXffYY0OE7oQAAAAFnMGOnwrD4HKVuMEaUlENzQdkxwoCHpBHVKCF2sa6CGFXcnl/cBInN9P3xwiRQSYD0ceT/0zToq9vhYQlb7zJg</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.SSIS.sa 3]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{7B7FA919-2E4E-4735-BD5F-E4446A034219}"
+      DTS:ObjectName="localhost.SSIS.sa 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-ForeachLoop-{7B7FA919-2E4E-4735-BD5F-E4446A034219}localhost.SSIS.sa 3;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjA9HmU5au0KgvXjYi9G25AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADI2chT3tyMPlCc+HUJTz5I+gWiWpwTtQi9UPSrlLtc+QAAAAAOgAAAAAIAACAAAAB3mfk+U38gkoUhVGI3Ja9mqXuQ/alm9Qh28HB6kIOqdhAAAABntCCAow54xA5ToNlWcIzVQAAAAOU4JXiWmOq7PFNy8ifB0XmtjO4Keh5Nk7eCUPvB+w1KoA8n0V69Xru235AiQTg019a9CKigRbcnodj960RmUNc</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{28D79F96-B30F-48DA-BBC9-87276B6D1841}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Datos">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{272CE888-D4DA-4D7C-8D0E-83696C1BB54E}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ID">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Buscar IDs a Actualizar"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{F294A43D-AC70-4D64-82AA-14A4356C6E0A}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Buscar IDs a Actualizar"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{CDD4C833-B43C-4BBC-B193-02BB8B7FEC11}"
+          SQLTask:SqlStatementSource="SELECT TOP (10) ID&#xA;FROM   FIFA&#xA;WHERE (PieEsp IS NULL)"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::ID" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Contenedor de bucles Foreach"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Contenedor de bucles Foreach"
+      DTS:DTSID="{F427DB6C-4038-4B11-85D5-0EF77658A7E4}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Contenedor de bucles Foreach">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachADOEnumerator"
+        DTS:DTSID="{A683BF94-F136-4F8B-8337-95E2365396D5}"
+        DTS:ObjectName="{A683BF94-F136-4F8B-8337-95E2365396D5}">
+        <DTS:ObjectData>
+          <FEEADO
+            EnumType="EnumerateAllRows"
+            VarName="User::Datos" />
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Contenedor de bucles Foreach\Tarea Ejecutar SQL"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tarea Ejecutar SQL"
+          DTS:DTSID="{439A1174-19E7-4264-A2DD-5ECABDC67E39}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Tarea Ejecutar SQL"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{CDD4C833-B43C-4BBC-B193-02BB8B7FEC11}"
+              SQLTask:SqlStatementSource="UPDATE FIFA&#xA;SET       PieEsp = CASE WHEN PiePreferido = 'Left' THEN 'Izquierdo' ELSE 'Derecho' END&#xA;WHERE (ID = ?)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="0"
+                SQLTask:DtsVariableName="User::ID"
+                SQLTask:ParameterDirection="Input"
+                SQLTask:DataType="3"
+                SQLTask:ParameterSize="-1" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{51B09A0B-CACE-4306-B44F-6F8F9862CCA0}"
+          DTS:ObjectName="{51B09A0B-CACE-4306-B44F-6F8F9862CCA0}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::ID" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{DB5B6A3E-4C46-46D1-AB52-BCB434075CBB}"
+      DTS:From="Package\Buscar IDs a Actualizar"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\Contenedor de bucles Foreach" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="190.666666666667,42.6666666666667"
+          Id="Package\Buscar IDs a Actualizar"
+          TopLeft="180.624991925434,43.1052626846074" />
+        <NodeLayout
+          Size="173.333333333334,42.6666666666667"
+          Id="Package\Contenedor de bucles Foreach\Tarea Ejecutar SQL"
+          TopLeft="59.6666579494876,27.8421027614966" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="294.666666666667,137.333333333334"
+          Size="294.666666666667,180.666666666667"
+          Id="Package\Contenedor de bucles Foreach"
+          TopLeft="135.624993937091,157.368419324758" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="279.458326264596,85.7719293512741">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,71.5964899734839"
+              Start="0,0"
+              End="0,64.0964899734839">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,64.0964899734839" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

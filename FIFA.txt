@@ -1,0 +1,101 @@
+ID,Nombre,NombreCompleto,Club,Liga,FechaNacimiento,AlturaCM,PesoKG,Nacionalidad,ValorEuropa,PiePreferido
+20801,Cristiano Ronaldo,C. Ronaldo dos Santos Aveiro,Real Madrid CF,Spanish Primera División,1985-02-05,185,80,Portugal,95500000,Right
+158023,L. Messi,Lionel Messi,FC Barcelona,Spanish Primera División,1987-06-24,170,72,Argentina,105000000,Left
+190871,Neymar,Neymar da Silva Santos Jr.,Paris Saint-Germain,French Ligue 1,1992-02-05,175,68,Brazil,123000000,Right
+176580,L. Suárez,Luis Suárez,FC Barcelona,Spanish Primera División,1987-01-24,182,86,Uruguay,97000000,Right
+167495,M. Neuer,Manuel Neuer,FC Bayern Munich,German Bundesliga,1986-03-27,193,92,Germany,61000000,Right
+188545,R. Lewandowski,Robert Lewandowski,FC Bayern Munich,German Bundesliga,1988-08-21,185,79,Poland,92000000,Right
+193080,De Gea,David De Gea Quintana,Manchester United,English Premier League,1990-11-07,193,76,Spain,64500000,Right
+183277,E. Hazard,Eden Hazard,Chelsea,English Premier League,1991-01-07,173,76,Belgium,90500000,Right
+182521,T. Kroos,Toni Kroos,Real Madrid CF,Spanish Primera División,1990-01-04,182,78,Germany,79000000,Right
+167664,G. Higuaín,Gonzalo Higuaín,Juventus,Italian Serie A,1987-12-10,184,87,Argentina,77000000,Right
+155862,Sergio Ramos,Sergio Ramos García,Real Madrid CF,Spanish Primera División,1986-03-30,183,75,Spain,52000000,Right
+192985,K. De Bruyne,Kevin De Bruyne,Manchester City,English Premier League,1991-06-28,181,68,Belgium,83000000,Right
+192119,T. Courtois,Thibaut Courtois,Chelsea,English Premier League,1992-05-11,199,94,Belgium,59000000,Left
+184941,A. Sánchez,Alexis Sánchez,Arsenal,English Premier League,1988-12-19,169,62,Chile,67500000,Right
+177003,L. Modric,Luka Modric,Real Madrid CF,Spanish Primera División,1985-09-09,174,65,Croatia,57000000,Right
+173731,G. Bale,Gareth Bale,Real Madrid CF,Spanish Primera División,1989-07-16,183,74,Wales,69500000,Left
+153079,S. Agüero,Sergio Agüero,Manchester City,English Premier League,1988-06-02,173,70,Argentina,66500000,Right
+138956,G. Chiellini,Giorgio Chiellini,Juventus,Italian Serie A,1984-08-14,187,85,Italy,38000000,Left
+1179,G. Buffon,Gianluigi Buffon,Juventus,Italian Serie A,1978-01-28,191,94,Italy,4500000,Right
+211110,P. Dybala,Paulo Dybala,Juventus,Italian Serie A,1993-11-15,177,73,Argentina,79000000,Left
+200389,J. Oblak,Jan Oblak,Atlético Madrid,Spanish Primera División,1993-01-07,189,82,Slovenia,57000000,Right
+194765,A. Griezmann,Antoine Griezmann,Atlético Madrid,Spanish Primera División,1991-03-21,174,72,France,75000000,Left
+189509,Thiago,Thiago Alcântara,FC Bayern Munich,German Bundesliga,1991-04-11,174,70,Spain,70500000,Right
+188567,P. Aubameyang,Pierre-Emerick Aubameyang,Borussia Dortmund,German Bundesliga,1989-06-18,187,80,Gabon,61000000,Right
+184344,L. Bonucci,Leonardo Bonucci,Milan,Italian Serie A,1987-05-01,190,85,Italy,44000000,Right
+183907,J. Boateng,Jérôme Boateng,FC Bayern Munich,German Bundesliga,1988-09-03,192,90,Germany,48000000,Right
+182493,D. Godín,Diego Godín,Atlético Madrid,Spanish Primera División,1986-02-16,186,78,Uruguay,40000000,Right
+178603,M. Hummels,Mats Hummels,FC Bayern Munich,German Bundesliga,1988-12-16,191,92,Germany,48000000,Right
+176635,M. Özil,Mesut Özil,Arsenal,English Premier League,1988-10-15,180,76,Germany,60000000,Left
+167948,H. Lloris,Hugo Lloris,Tottenham Hotspur,English Premier League,1986-12-26,188,82,France,38000000,Left
+164240,Thiago Silva,Thiago Emiliano da Silva,Paris Saint-Germain,French Ligue 1,1984-09-22,183,79,Brazil,34000000,Right
+41236,Z. Ibrahimovic,Zlatan Ibrahimovic,Manchester United,English Premier League,1981-10-03,195,95,Sweden,27000000,Right
+9014,A. Robben,Arjen Robben,FC Bayern Munich,German Bundesliga,1984-01-23,180,80,Netherlands,36000000,Left
+215914,N. Kanté,N'Golo Kanté,Chelsea,English Premier League,1991-03-29,168,68,France,52500000,Right
+199556,M. Verratti,Marco Verratti,Paris Saint-Germain,French Ligue 1,1992-11-05,165,60,Italy,64500000,Right
+195864,P. Pogba,Paul Pogba,Manchester United,English Premier League,1993-03-15,191,84,France,66500000,Right
+190460,C. Eriksen,Christian Eriksen,Tottenham Hotspur,English Premier League,1992-02-14,182,76,Denmark,65000000,Right
+181872,A. Vidal,Arturo Vidal,FC Bayern Munich,German Bundesliga,1987-05-22,180,75,Chile,37500000,Right
+179813,E. Cavani,Edinson Cavani,Paris Saint-Germain,French Ligue 1,1987-02-14,184,71,Uruguay,48500000,Right
+176676,Marcelo,Marcelo Vieira da Silva,Real Madrid CF,Spanish Primera División,1988-05-12,174,75,Brazil,38000000,Left
+171877,M. Hamšík,Marek Hamšík,Napoli,Italian Serie A,1987-07-27,183,79,Slovakia,48500000,Right
+168651,I. Rakitic,Ivan Rakitic,FC Barcelona,Spanish Primera División,1988-03-10,184,78,Croatia,48500000,Right
+168542,David Silva,David Josué Jiménez Silva,Manchester City,English Premier League,1986-01-08,173,67,Spain,44000000,Left
+162835,S. Handanovic,Samir Handanovic,Inter,Italian Serie A,1984-07-14,193,92,Slovenia,29000000,Right
+152729,Piqué,Gerard Piqué Bernabeu,FC Barcelona,Spanish Primera División,1987-02-02,194,85,Spain,37500000,Right
+41,Iniesta,Andrés Iniesta Luján,FC Barcelona,Spanish Primera División,1984-05-11,171,68,Spain,29500000,Right
+202126,H. Kane,Harry Kane,Tottenham Hotspur,English Premier League,1993-07-28,188,86,England,59000000,Right
+198710,J. Rodríguez,James Rodríguez,FC Bayern Munich,German Bundesliga,1991-07-12,180,75,Colombia,56000000,Left
+197781,Isco,Francisco Román Alarcón Suárez,Real Madrid CF,Spanish Primera División,1992-04-21,176,74,Spain,56500000,Right
+197445,D. Alaba,David Alaba,FC Bayern Munich,German Bundesliga,1992-06-24,180,76,Austria,44500000,Left
+192505,R. Lukaku,Romelu Lukaku,Manchester United,English Premier League,1993-05-13,190,94,Belgium,59000000,Left
+191043,Alex Sandro,Alex Sandro Lobo Silva,Juventus,Italian Serie A,1991-01-26,181,81,Brazil,44000000,Left
+189596,T. Müller,Thomas Müller,FC Bayern Munich,German Bundesliga,1989-09-13,186,75,Germany,47500000,Right
+189511,Sergio Busquets,Sergio Busquets Burgos,FC Barcelona,Spanish Primera División,1988-07-16,189,76,Spain,36000000,Right
+189242,Coutinho,Philippe Coutinho Correia,Liverpool,English Premier League,1992-06-12,171,71,Brazil,56000000,Right
+188350,M. Reus,Marco Reus,Borussia Dortmund,German Bundesliga,1989-05-31,180,75,Germany,45000000,Right
+184087,T. Alderweireld,Toby Alderweireld,Tottenham Hotspur,English Premier League,1989-03-02,187,91,Belgium,40500000,Right
+179944,David Luiz,David Luiz Moreira Marinho,Chelsea,English Premier League,1987-04-22,189,84,Brazil,33000000,Right
+179844,Diego Costa,Diego da Silva Costa,Chelsea,English Premier League,1988-10-07,186,87,Spain,46000000,Right
+178518,R. Nainggolan,Radja Nainggolan,Roma,Italian Serie A,1988-05-04,176,77,Belgium,42500000,Right
+177610,Javi Martínez,Javier Martínez Aginaga,FC Bayern Munich,German Bundesliga,1988-09-02,190,81,Spain,36000000,Right
+175943,D. Mertens,Dries Mertens,Napoli,Italian Serie A,1987-05-06,169,61,Belgium,43000000,Right
+172879,Sokratis,Sokratis Papastathopoulos,Borussia Dortmund,German Bundesliga,1988-06-09,186,85,Greece,34500000,Right
+168609,Miranda,João Miranda de Souza Filho,Inter,Italian Serie A,1984-09-07,186,78,Brazil,25500000,Right
+165153,K. Benzema,Karim Benzema,Real Madrid CF,Spanish Primera División,1987-12-19,187,79,France,44500000,Right
+162895,Cesc Fàbregas,Francesc Fàbregas i Soler,Chelsea,English Premier League,1987-05-04,180,77,Spain,41000000,Right
+156616,F. Ribéry,Franck Ribéry,FC Bayern Munich,German Bundesliga,1983-04-07,170,72,France,22500000,Right
+120533,Pepe,Képler Laveran Lima Ferreira,Besiktas JK,Turkish Süper Lig,1983-02-26,188,81,Portugal,13500000,Right
+48940,P. Cech,Petr Cech,Arsenal,English Premier League,1982-05-20,196,90,Czech Republic,10500000,Left
+208418,Y. Carrasco,Yannick Carrasco,Atlético Madrid,Spanish Primera División,1993-09-04,180,67,Belgium,51500000,Right
+201535,R. Varane,Raphaël Varane,Real Madrid CF,Spanish Primera División,1993-04-25,191,78,France,46500000,Right
+201153,Morata,Álvaro Borja Morata Martín,Chelsea,English Premier League,1992-10-23,189,85,Spain,51000000,Right
+200145,Casemiro,Carlos Henrique Venancio Casimiro,Real Madrid CF,Spanish Primera División,1992-02-23,184,80,Brazil,42000000,Right
+198219,L. Insigne,Lorenzo Insigne,Napoli,Italian Serie A,1991-06-04,163,59,Italy,45000000,Right
+193747,Koke,Jorge Resurrección,Atlético Madrid,Spanish Primera División,1992-01-08,178,74,Spain,47500000,Right
+193301,A. Lacazette,Alexandre Lacazette,Arsenal,English Premier League,1991-05-28,175,73,France,48500000,Right
+193041,K. Navas,Keylor Navas,Real Madrid CF,Spanish Primera División,1986-12-15,185,78,Costa Rica,24500000,Right
+192883,H. Mkhitaryan,Henrikh Mkhitaryan,Manchester United,English Premier League,1989-01-21,177,75,Armenia,39000000,Right
+192593,D. Subašic,Danijel Subašic,AS Monaco,French Ligue 1,1984-10-27,191,84,Croatia,22000000,Right
+192563,B. Leno,Bernd Leno,Bayer 04 Leverkusen,German Bundesliga,1992-03-04,190,83,Germany,34000000,Right
+192448,M. ter Stegen,Marc-André ter Stegen,FC Barcelona,Spanish Primera División,1992-04-30,187,85,Germany,35500000,Right
+190547,K. Glik,Kamil Glik,AS Monaco,French Ligue 1,1988-02-03,190,80,Poland,30000000,Right
+189332,Jordi Alba,Jordi Alba Ramos,FC Barcelona,Spanish Primera División,1989-03-21,170,68,Spain,30500000,Left
+186942,I. Gündogan,Ilkay Gündogan,Manchester City,English Premier League,1990-10-24,180,80,Germany,46000000,Right
+184432,Azpilicueta,César Azpilicueta Tanco,Chelsea,English Premier League,1989-08-28,178,78,Spain,37500000,Right
+183898,A. Di María,Ángel Di María,Paris Saint-Germain,French Ligue 1,1988-02-14,180,75,Argentina,37500000,Left
+180206,M. Pjanic,Miralem Pjanic,Juventus,Italian Serie A,1990-04-02,180,70,Bosnia Herzegovina,43500000,Right
+173210,C. Marchisio,Claudio Marchisio,Juventus,Italian Serie A,1986-01-19,180,73,Italy,33000000,Right
+172871,J. Vertonghen,Jan Vertonghen,Tottenham Hotspur,English Premier League,1987-04-24,189,88,Belgium,28500000,Left
+170890,B. Matuidi,Blaise Matuidi,Juventus,Italian Serie A,1987-04-09,175,70,France,28500000,Left
+167628,S. Ruffier,Stéphane Ruffier,AS Saint-Étienne,French Ligue 1,1986-09-27,188,93,France,24500000,Right
+164169,Filipe Luís,Filipe Luís Kasmirski,Atlético Madrid,Spanish Primera División,1985-08-09,182,73,Brazil,25000000,Left
+139720,V. Kompany,Vincent Kompany,Manchester City,English Premier League,1986-04-10,193,85,Belgium,26000000,Right
+137186,A. Barzagli,Andrea Barzagli,Juventus,Italian Serie A,1981-05-08,187,87,Italy,5000000,Right
+225508,E. Bailly,Eric Bailly,Manchester United,English Premier League,1994-04-12,187,77,Ivory Coast,35500000,Right
+220834,Marco Asensio,Marco Asensio Willemsen,Real Madrid CF,Spanish Primera División,1996-01-21,180,75,Spain,46000000,Left
+218667,Bernardo Silva,Bernardo Mota Carvalho e Silva,Manchester City,English Premier League,1994-08-10,173,64,Portugal,43500000,Left
+212218,A. Laporte,Aymeric Laporte,Athletic Club de Bilbao,Spanish Primera División,1994-05-27,189,85,France,35500000,Left
+211117,D. Alli,Dele Alli,Tottenham Hotspur,English Premier League,1996-04-11,188,80,England,43000000,Right
+208722,S. Mané,Sadio Mané,Liverpool,English Premier League,1992-04-10,175,69,Senegal,39000000,Right
