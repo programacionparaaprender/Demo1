@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/25/2024 3:19:26 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAPTOP-CKPUJRP1"
+  DTS:CreatorName="LAPTOP-CKPUJRP1\luis1"
+  DTS:Description="Exporta los datos de la tabla customers"
+  DTS:DTSID="{6C43CE6E-6E0A-4A56-9329-0DE8F38CBA9F}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5107.0"
+  DTS:LocaleID="3082"
+  DTS:MaxErrorCount="0"
+  DTS:ObjectName="Export_Customers"
+  DTS:VersionGUID="{C118A167-F8C0-43A6-84B4-80E52A4C62B5}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DestinationConnectionFlatFile]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{2F663096-4556-43B6-8AA2-F2FE7C744120}"
+      DTS:ObjectName="DestinationConnectionFlatFile">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3082"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\luis1\Documents\htdocs\Demo 1\Customers.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CustomerID"
+              DTS:DTSID="{7B1EC06A-098A-4E2C-A107-38ED434E44EE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="40"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CompanyName"
+              DTS:DTSID="{ACB2AAB9-E992-4083-81E1-40D4176379FA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="30"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ContactName"
+              DTS:DTSID="{24EB821B-6B8D-45E8-A1EB-8D63A7D0C401}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="30"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ContactTitle"
+              DTS:DTSID="{801AA294-54E8-4EDC-A786-07CB78EF2E26}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="60"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Address"
+              DTS:DTSID="{E323F849-44F0-430F-941F-513E51194C67}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="15"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="City"
+              DTS:DTSID="{E7BE99D7-29B2-46AB-8940-7FD086B0C21D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="15"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Region"
+              DTS:DTSID="{CEA53DCA-5171-4241-A877-C76FF5C0E817}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PostalCode"
+              DTS:DTSID="{4E5B746D-6FD7-4B19-8CD7-4D212923A175}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="15"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Country"
+              DTS:DTSID="{5732AF3E-645E-4B70-9FAB-F79BD8F77853}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="24"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Phone"
+              DTS:DTSID="{FAA0FD61-36B9-4328-A584-DDB42DADDB64}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="24"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fax"
+              DTS:DTSID="{089882CA-245D-4AB6-88A6-1B24FBA28DBE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SourceConnectionOLEDB]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{97CF195A-66F1-4F0D-ADF2-1D4BD20CDEC2}"
+      DTS:ObjectName="SourceConnectionOLEDB">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=NORTHWND;Provider=SQLOLEDB;Integrated Security=SSPI;Auto Translate=false;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow Task 1"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:DelayValidation="True"
+      DTS:DTSID="{1215B897-E77B-45D8-AF41-BA3FB40C1F92}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:FailPackageOnFailure="True"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task 1"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          defaultBufferSize="3145728"
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task 1\Destination - Customers_txt"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="3082"
+              name="Destination - Customers_txt"
+              validateExternalMetadata="False"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task 1\Destination - Customers_txt.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DestinationConnectionFlatFile]"
+                  connectionManagerRefId="Package.ConnectionManagers[DestinationConnectionFlatFile]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[CustomerID]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="CustomerID"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[CustomerID]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[CustomerID]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[CompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="CompanyName"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[CompanyName]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[CompanyName]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[ContactName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactName"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[ContactName]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[ContactName]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[ContactTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactTitle"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[ContactTitle]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[ContactTitle]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[Address]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Address"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Address]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Address]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="City"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[City]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[City]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Region"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Region]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Region]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[PostalCode]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="PostalCode"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[PostalCode]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[PostalCode]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Country]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Country]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[Phone]"
+                      cachedDataType="wstr"
+                      cachedLength="24"
+                      cachedName="Phone"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Phone]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Phone]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].Columns[Fax]"
+                      cachedDataType="wstr"
+                      cachedLength="24"
+                      cachedName="Fax"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Fax]"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Fax]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[CustomerID]"
+                      dataType="wstr"
+                      length="5"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      name="Address" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="15"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      name="PostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="24"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input].ExternalColumns[Fax]"
+                      dataType="wstr"
+                      length="24"
+                      name="Fax" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task 1\Source - Customers"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Source - Customers"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Customers]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task 1\Source - Customers.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SourceConnectionOLEDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[SourceConnectionOLEDB]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[CustomerID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerID]"
+                      length="5"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[CustomerID]"
+                      name="CustomerID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[CompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[CompanyName]"
+                      length="40"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[CompanyName]"
+                      name="CompanyName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[ContactName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[ContactName]"
+                      length="30"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[ContactName]"
+                      name="ContactName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[ContactTitle]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[ContactTitle]"
+                      length="30"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[ContactTitle]"
+                      name="ContactTitle"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Address]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Address]"
+                      length="60"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Address]"
+                      name="Address"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[City]"
+                      length="15"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Region]"
+                      length="15"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[PostalCode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
+                      length="10"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[PostalCode]"
+                      name="PostalCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Country]"
+                      length="15"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Phone]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      length="24"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Phone]"
+                      name="Phone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Fax]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Fax]"
+                      length="24"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].Columns[Fax]"
+                      name="Fax"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[CustomerID]"
+                      dataType="wstr"
+                      length="5"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      name="Address" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="15"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      name="PostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="24"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output].ExternalColumns[Fax]"
+                      dataType="wstr"
+                      length="24"
+                      name="Fax" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[CustomerID]"
+                      dataType="wstr"
+                      length="5"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[CustomerID]"
+                      name="CustomerID" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[CompanyName]"
+                      name="CompanyName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ContactName]"
+                      name="ContactName" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ContactTitle]"
+                      name="ContactTitle" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Address]"
+                      name="Address" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[PostalCode]"
+                      name="PostalCode" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Phone]"
+                      dataType="wstr"
+                      length="24"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Phone]"
+                      name="Phone" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Fax]"
+                      dataType="wstr"
+                      length="24"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[Fax]"
+                      name="Fax" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow Task 1.Paths[OLE DB Source Output]"
+              endId="Package\Data Flow Task 1\Destination - Customers_txt.Inputs[Flat File Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Data Flow Task 1\Source - Customers.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+</DTS:Executable>
